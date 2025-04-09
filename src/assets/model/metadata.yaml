@@ -1,0 +1,20 @@
+description: Ultralytics last model trained on C:\Users\Adrian\Desktop\Nueva carpeta\data\dataset.yaml
+author: Ultralytics
+date: '2025-04-08T22:57:11.967547'
+version: 8.3.105
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: semicircular
+  1: gothic
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
